@@ -23,3 +23,9 @@ class GFG {
 }
 
 //output:  28,14,7,22,11,34,17,52,26,13,40,20,10,5,16,8,4,2,1,
+
+
+/*The Collatz conjecture is one of the most famous unsolved problems in mathematics. 
+The conjecture asks whether repeating two simple arithmetic operations will eventually transform every positive integer into 1.
+*/
+
