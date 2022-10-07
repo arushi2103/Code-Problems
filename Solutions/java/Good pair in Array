@@ -1,0 +1,15 @@
+//Given an array A and an integer B. A pair(i, j) in the array is a good pair if i != j and (A[i] + A[j] == B). Check if any good pair exist or not.
+
+public class Solution {
+    public int solve(int[] A, int B) {
+        int i,j,N=A.length,result=0;
+        for(i=0;i<=N-1;i++){
+            for(j=i+1;j<=N-1;j++){
+                if(A[i]+A[j]==B){
+                    result=1;
+                }
+            }
+        }
+        return result;
+    }
+}
